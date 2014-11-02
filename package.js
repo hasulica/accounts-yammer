@@ -2,7 +2,7 @@ Package.describe({
     name: 'rnorth:accounts-yammer',
     summary: 'Login service for Yammer accounts',
     version: '0.1.0',
-    git: ' /* Fill me in! */ '
+    git: 'https://github.com/rnorth/accounts-yammer.git'
 });
 
 Package.onUse(function (api) {
