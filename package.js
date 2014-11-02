@@ -11,7 +11,7 @@ Package.onUse(function (api) {
     // Export Accounts (etc) to packages using this one.
     api.imply('accounts-base', ['client', 'server']);
     api.use('accounts-oauth', ['client', 'server']);
-    api.use('rnorth:yammer', ['client', 'server']);
+    api.use('rnorth:yammer@0.1.0', ['client', 'server']);
 
     api.versionsFrom('1.0');
     api.addFiles('yammer.js');
